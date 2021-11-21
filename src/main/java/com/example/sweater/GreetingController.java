@@ -20,7 +20,7 @@ public class GreetingController {
 
     @GetMapping
     public String main(Map<String, Object> model) {
-        model.put("some", "hello, letsCoe!");
+        model.put("some", "hello, letsCode!");
         return "main";
     }
 }
